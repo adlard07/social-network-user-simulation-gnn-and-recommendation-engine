@@ -30,10 +30,10 @@
 - Serving the model to make real-time predictions on new user interactions
 - Validating the model's predictions against the RL agent's behavior
 
-## Caching Layer (Redis)
+## Caching Layer
 - Caching layer for storing model predictions and reducing inference latency
 
-## API Service (FastAPI)
+## Backend
 - Sockets for real-time communication with clients
 - API service for serving model predictions to clients
 
@@ -41,3 +41,4 @@
 - Monitoring and evaluation framework for tracking model performance and agent behavior
 - Monitoring data drift and model performance over time after deployment
 - Scheduling model retraining and evaluation tasks
+- Maintaining model logs
