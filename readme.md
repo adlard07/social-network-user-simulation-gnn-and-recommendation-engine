@@ -7,6 +7,9 @@
   - Graph format: sparse tensor representations
   - Feature engineering at node level: initial node features (degree, clustering coefficient, PageRank scores, activity metrics) to provide rich starting representations
   - Node Searching: Normalize node features and edge weights to prevent training instability
+- Graph Storage: 
+  - Storing the graph data in neo4j
+  - Storing inference results in redis for fast retrieval
 
 ## Artificial User Simulation
 - User Agent Environment: environment representing the social network state
